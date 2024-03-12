@@ -3,14 +3,6 @@ No final do programa, mostre: a média de idade do grupo, qual é o nome do home
 velho e quantas mulheres têm menos de 20 anos. """
 
 
-# Objetivos: 
-# 1 - Mostrar a média de idade do grupo - Ok
-# 2 - Identificar o nome do Mais velho - OK
-# 3 - Identificar se o mais velho é Homem - em andamento
-# 4 - Identificar quantas Mulheres tem menos de 20 anos
-
-
-
 
 # Váriaveis
 soma = 0
