@@ -1,4 +1,5 @@
+import math
+n1 = input("Digite um número: ")
+s = isnumeric
 
-
-for c in range(1, 5):
-    print("Error\n")
+print(f"Valor:{n1} É numérico: {s}")
