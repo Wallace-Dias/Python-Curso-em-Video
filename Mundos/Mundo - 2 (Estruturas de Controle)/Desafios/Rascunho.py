@@ -1,33 +1,30 @@
-""" Crie um programa que simule o funcionamento de um caixa eletrônico. No início, pergunte ao usuário qual será o valor a ser sacado (número inteiro) e o programa vai informar quantas cédulas de cada valor serão entregues. OBS:
-
-considere que o caixa possui cédulas de R$50, R$20, R$10 e R$1. """
-
-# Perguntar qual valor a ser sacado - [ ]
-# Inf quantas cédulas de cada valor serão entregues - [ ]
-
-valor = int(input("Valor a ser sacado: "))
-total = valor
-céd = 50
-totcéd = 0
-
-while True:
-    if total >= céd:
-        total -= céd
-        totcéd += 1
-
+funcionario = ("Wallace", 22, "M")
+for c in (funcionario):
+    opc = str(input("[X] para excluír")).strip().upper()[0]
+    if opc == 'X':
+        del(funcionario)
     else:
-        if totcéd > 0:
-            print(f"Foi retirado {totcéd} Cédulas de R$ {céd}")
-        if céd == 50:
-            céd = 20
-        elif céd == 20:
-            céd = 10
-        elif céd == 10:
-            céd = 1
-        
-        totcéd = 0
-        
-        if total == 0:
-            break
+        print("funcionário")
+for c in range (0, 15):
+    print(funcionario)
 
-print("{:-^30}".format("Fim do Programa"))
+
+
+
+
+
+
+
+
+""" nomes = ('Wallace', 'Thamires', 'Luciana')
+ct = 0
+for c in range (0, len(nomes)):
+for c in nomes:
+for pos, c in enumerate (nomes):
+    print(f"{pos}: {c}")
+for cont in range(0, len(nomes)):
+    print(f"{cont}: {nomes[cont]}")
+    
+
+        
+print("Lista final") """
