@@ -7,8 +7,9 @@ números = (randint(1,10), randint(1,10), randint(1,10), randint(1,10), randint(
 
 
 
+# Meu jeito
 
-menor = números
+""" menor = números
 maior = números
 cont = 0
 for c in números:
@@ -25,10 +26,19 @@ for c in números:
     else:
         break
     
-print(f"Sorteio {lista}")
+print(f"Sorteio {números}")
 print(f"Menor n°{menor}")
 print(f"Maior n°{maior}")
+ """
 
-
+# Jeito do guanabara
+print("Os números sorteados foram:\n")
+print("Números: ", end='')
+for c in números:
+    print(f"{c},", end="")
+    
+print("")
+print(f"Menor n°{min(números)}")
+print(f"Maior n°{max(números)}")
 
     
