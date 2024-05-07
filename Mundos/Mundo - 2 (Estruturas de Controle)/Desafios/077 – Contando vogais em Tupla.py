@@ -3,5 +3,9 @@
 lista = ("Tedio", "Decepçao", "Depressao")
 
 for p in lista:
-    print(f"{p}")
+    print(f"\nNa palavra {p.upper()} Temos: ", end='')
+    
+    for letra in p:
+        if letra.lower() in 'aeiou':
+            print(f'{letra}', end='')
 
