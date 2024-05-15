@@ -21,7 +21,22 @@ for pos, v in enumerate(lista, start= 1):
             menor = v
             posmenor = pos
 
-print(f'\nMaior Valor é = {maior} e está na {posmaior} posição\nMenor Valor = {menor} e está na {posmenor} posição')
+
+print(f'\nMaior Valor é = {maior} e está na posição: ', end='')
+for pos, v in enumerate(lista, start= 1):
+    if v == maior:
+        print(f'{pos}...', end='')
+    
+print()
+print(f'\nMenor Valor = {menor} e está na posição: ', end='')
+for pos, v in enumerate(lista, start=1):
+    if v == menor:
+        print(f'{pos}...', end='')
+print()
+
+
+
+
 
 
         
